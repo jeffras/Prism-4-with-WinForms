@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC79289A-2563-40B8-895C-3CDA56BA4956}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.Practices.Prism</RootNamespace>
+    <AssemblyName>Microsoft.Practices.Prism</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>false</ThrowErrorsInValidation><FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <DocumentationFile>bin\Debug\Microsoft.Practices.Prism.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>0612</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Release\Microsoft.Practices.Prism.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>0612</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LIB\Silverlight\CommonServiceLocation\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Desktop\Prism\Bootstrapper.cs">
+      <Link>Bootstrapper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\CollectionExtensions.cs">
+      <Link>CollectionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Commands\ButtonBaseClickCommandBehavior.cs">
+      <Link>Commands\ButtonBaseClickCommandBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Commands\Click.cs">
+      <Link>Commands\Click.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Commands\CommandBehaviorBase.cs">
+      <Link>Commands\CommandBehaviorBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Commands\CompositeCommand.cs">
+      <Link>Commands\CompositeCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Commands\DelegateCommand.cs">
+      <Link>Commands\DelegateCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Commands\DelegateCommandBase.cs">
+      <Link>Commands\DelegateCommandBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\BackgroundEventSubscription.cs">
+      <Link>Events\BackgroundEventSubscription.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\CompositePresentationEvent.cs">
+      <Link>Events\CompositePresentationEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\DataEventArgs.cs">
+      <Link>Events\DataEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\DelegateReference.cs">
+      <Link>Events\DelegateReference.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\DispatcherEventSubscription.cs">
+      <Link>Events\DispatcherEventSubscription.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\EventAggregator.cs">
+      <Link>Events\EventAggregator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\EventBase.cs">
+      <Link>Events\EventBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\EventSubscription.cs">
+      <Link>Events\EventSubscription.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\IDelegateReference.cs">
+      <Link>Events\IDelegateReference.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\IDispatcherFacade.cs">
+      <Link>Events\IDispatcherFacade.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\IEventAggregator.cs">
+      <Link>Events\IEventAggregator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\IEventSubscription.cs">
+      <Link>Events\IEventSubscription.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\SubscriptionToken.cs">
+      <Link>Events\SubscriptionToken.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\ThreadOption.cs">
+      <Link>Events\ThreadOption.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Events\WeakDelegatesManager.cs">
+      <Link>Events\WeakDelegatesManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\ExceptionExtensions.cs">
+      <Link>ExceptionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\IActiveAware.cs">
+      <Link>IActiveAware.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\ListDictionary.cs">
+      <Link>ListDictionary.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Logging\Category.cs">
+      <Link>Logging\Category.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Logging\EmptyLogger.cs">
+      <Link>Logging\EmptyLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Logging\ILoggerFacade.cs">
+      <Link>Logging\ILoggerFacade.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Logging\Priority.cs">
+      <Link>Logging\Priority.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Logging\TextLogger.cs">
+      <Link>Logging\TextLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\CyclicDependencyFoundException.cs">
+      <Link>Modularity\CyclicDependencyFoundException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\DuplicateModuleException.cs">
+      <Link>Modularity\DuplicateModuleException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\IModule.cs">
+      <Link>Modularity\IModule.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\IModuleCatalog.cs">
+      <Link>Modularity\IModuleCatalog.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\IModuleCatalogItem.cs">
+      <Link>Modularity\IModuleCatalogItem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\IModuleInitializer.cs">
+      <Link>Modularity\IModuleInitializer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\IModuleManager.cs">
+      <Link>Modularity\IModuleManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\IModuleTypeLoader.cs">
+      <Link>Modularity\IModuleTypeLoader.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\InitializationMode.cs">
+      <Link>Modularity\InitializationMode.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\LoadModuleCompletedEventArgs.cs">
+      <Link>Modularity\LoadModuleCompletedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModularityException.cs">
+      <Link>Modularity\ModularityException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleCatalog.cs">
+      <Link>Modularity\ModuleCatalog.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleDependencySolver.cs">
+      <Link>Modularity\ModuleDependencySolver.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleDownloadProgressChangedEventArgs.cs">
+      <Link>Modularity\ModuleDownloadProgressChangedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleInfo.cs">
+      <Link>Modularity\ModuleInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleInfoGroup.cs">
+      <Link>Modularity\ModuleInfoGroup.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleInfoGroupExtensions.cs">
+      <Link>Modularity\ModuleInfoGroupExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleInitializeException.cs">
+      <Link>Modularity\ModuleInitializeException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleInitializer.cs">
+      <Link>Modularity\ModuleInitializer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleManager.cs">
+      <Link>Modularity\ModuleManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleNotFoundException.cs">
+      <Link>Modularity\ModuleNotFoundException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleState.cs">
+      <Link>Modularity\ModuleState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleTypeLoaderNotFoundException.cs">
+      <Link>Modularity\ModuleTypeLoaderNotFoundException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Modularity\ModuleTypeLoadingException.cs">
+      <Link>Modularity\ModuleTypeLoadingException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\ObservableObject.cs">
+      <Link>ObservableObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Properties\Resources.Designer.cs">
+      <Link>Properties\Resources.Designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\AllActiveRegion.cs">
+      <Link>Regions\AllActiveRegion.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Behaviors\AutoPopulateRegionBehavior.cs">
+      <Link>Regions\Behaviors\AutoPopulateRegionBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Behaviors\BindRegionContextToDependencyObjectBehavior.cs">
+      <Link>Regions\Behaviors\BindRegionContextToDependencyObjectBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Behaviors\DelayedRegionCreationBehavior.cs">
+      <Link>Regions\Behaviors\DelayedRegionCreationBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Behaviors\IHostAwareRegionBehavior.cs">
+      <Link>Regions\Behaviors\IHostAwareRegionBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Behaviors\RegionActiveAwareBehavior.cs">
+      <Link>Regions\Behaviors\RegionActiveAwareBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Behaviors\RegionCreationException.cs">
+      <Link>Regions\Behaviors\RegionCreationException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Behaviors\RegionManagerRegistrationBehavior.cs">
+      <Link>Regions\Behaviors\RegionManagerRegistrationBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Behaviors\RegionMemberLifetimeBehavior.cs">
+      <Link>Regions\Behaviors\RegionMemberLifetimeBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Behaviors\SelectorItemsSourceSyncBehavior.cs">
+      <Link>Regions\Behaviors\SelectorItemsSourceSyncBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Behaviors\SyncRegionContextWithHostBehavior.cs">
+      <Link>Regions\Behaviors\SyncRegionContextWithHostBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\ContentControlRegionAdapter.cs">
+      <Link>Regions\ContentControlRegionAdapter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\DefaultRegionManagerAccessor.cs">
+      <Link>Regions\DefaultRegionManagerAccessor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IConfirmNavigationRequest.cs">
+      <Link>Regions\IConfirmNavigationRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\INavigateAsync.cs">
+      <Link>Regions\INavigateAsync.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\INavigationAware.cs">
+      <Link>Regions\INavigationAware.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegion.cs">
+      <Link>Regions\IRegion.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionAdapter.cs">
+      <Link>Regions\IRegionAdapter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionBehavior.cs">
+      <Link>Regions\IRegionBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionBehaviorCollection.cs">
+      <Link>Regions\IRegionBehaviorCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionBehaviorFactory.cs">
+      <Link>Regions\IRegionBehaviorFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionCollection.cs">
+      <Link>Regions\IRegionCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionManager.cs">
+      <Link>Regions\IRegionManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionManagerAccessor.cs">
+      <Link>Regions\IRegionManagerAccessor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionMemberLifetime.cs">
+      <Link>Regions\IRegionMemberLifetime.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionNavigationContentLoader.cs">
+      <Link>Regions\IRegionNavigationContentLoader.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionNavigationJournal.cs">
+      <Link>Regions\IRegionNavigationJournal.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionNavigationJournalEntry.cs">
+      <Link>Regions\IRegionNavigationJournalEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionNavigationService.cs">
+      <Link>Regions\IRegionNavigationService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IRegionViewRegistry.cs">
+      <Link>Regions\IRegionViewRegistry.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\ItemMetadata.cs">
+      <Link>Regions\ItemMetadata.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\ItemsControlRegionAdapter.cs">
+      <Link>Regions\ItemsControlRegionAdapter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\IViewsCollection.cs">
+      <Link>Regions\IViewsCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\NavigationAsyncExtensions.cs">
+      <Link>Regions\NavigationAsyncExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\NavigationContext.cs">
+      <Link>Regions\NavigationContext.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\NavigationResult.cs">
+      <Link>Regions\NavigationResult.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\Region.cs">
+      <Link>Regions\Region.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionAdapterBase.cs">
+      <Link>Regions\RegionAdapterBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionAdapterMappings.cs">
+      <Link>Regions\RegionAdapterMappings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionBehavior.cs">
+      <Link>Regions\RegionBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionBehaviorCollection.cs">
+      <Link>Regions\RegionBehaviorCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionBehaviorFactory.cs">
+      <Link>Regions\RegionBehaviorFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionContext.cs">
+      <Link>Regions\RegionContext.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionManager.cs">
+      <Link>Regions\RegionManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionManagerExtensions.cs">
+      <Link>Regions\RegionManagerExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionMemberLifetimeAttribute.cs">
+      <Link>Regions\RegionMemberLifetimeAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionNavigationContentLoader.cs">
+      <Link>Regions\RegionNavigationContentLoader.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionNavigationEventArgs.cs">
+      <Link>Regions\RegionNavigationEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionNavigationFailedEventArgs.cs">
+      <Link>Regions\RegionNavigationFailedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionNavigationJournal.cs">
+      <Link>Regions\RegionNavigationJournal.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionNavigationJournalEntry.cs">
+      <Link>Regions\RegionNavigationJournalEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionNavigationService.cs">
+      <Link>Regions\RegionNavigationService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\RegionViewRegistry.cs">
+      <Link>Regions\RegionViewRegistry.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\SelectorRegionAdapter.cs">
+      <Link>Regions\SelectorRegionAdapter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\SingleActiveRegion.cs">
+      <Link>Regions\SingleActiveRegion.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\UpdateRegionsException.cs">
+      <Link>Regions\UpdateRegionsException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\ViewRegisteredEventArgs.cs">
+      <Link>Regions\ViewRegisteredEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\ViewRegistrationException.cs">
+      <Link>Regions\ViewRegistrationException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\ViewsCollection.cs">
+      <Link>Regions\ViewsCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\Regions\ViewSortHintAttribute.cs">
+      <Link>Regions\ViewSortHintAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\ServiceLocatorExtensions.cs">
+      <Link>ServiceLocatorExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\UriParsingHelper.cs">
+      <Link>UriParsingHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\UriQuery.cs">
+      <Link>UriQuery.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\ViewModel\ErrorsContainer.cs">
+      <Link>ViewModel\ErrorsContainer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\ViewModel\NotificationObject.cs">
+      <Link>ViewModel\NotificationObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism\ViewModel\PropertySupport.cs">
+      <Link>ViewModel\PropertySupport.cs</Link>
+    </Compile>
+    <Compile Include="Events\DefaultDispatcher.Silverlight.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="ListExtensions.Silverlight.cs" />
+    <Compile Include="Modularity\DownloadCompletedEventArgs.cs" />
+    <Compile Include="Modularity\FileDownloader.cs" />
+    <Compile Include="Modularity\IFileDownloader.cs" />
+    <Compile Include="Modularity\ModuleManager.Silverlight.cs" />
+    <Compile Include="Modularity\XapModuleTypeLoader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regions\Behaviors\TabControlRegionSyncBehavior.cs" />
+    <Compile Include="Regions\TabControlRegionAdapter.cs" />
+    <Compile Include="Regions\ViewsCollection.Silverlight.cs" />
+    <Compile Include="ViewModel\DataTemplateSelector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\Desktop\Prism\Properties\Resources.resx">
+      <Link>Properties\Resources.resx</Link>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+      <UserProperties ProjectLinkReference="77138947-1d13-4e22-aee0-5d0dd046ca34" ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

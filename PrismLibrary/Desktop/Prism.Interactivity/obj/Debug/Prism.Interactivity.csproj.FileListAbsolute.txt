@@ -1,0 +1,9 @@
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity\obj\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity\obj\Debug\Microsoft.Practices.Prism.Interactivity.pdb

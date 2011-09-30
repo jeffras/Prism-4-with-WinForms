@@ -1,0 +1,9 @@
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\Common\bin\Release\Common.dll
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\Common\bin\Release\Common.pdb
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\Common\bin\Release\Microsoft.Practices.Prism.dll
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\Common\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\Common\bin\Release\Microsoft.Practices.Prism.pdb
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\Common\bin\Release\Microsoft.Practices.Prism.xml
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\Common\obj\Release\ResolveAssemblyReference.cache
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\Common\obj\Release\Common.dll
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\Common\obj\Release\Common.pdb

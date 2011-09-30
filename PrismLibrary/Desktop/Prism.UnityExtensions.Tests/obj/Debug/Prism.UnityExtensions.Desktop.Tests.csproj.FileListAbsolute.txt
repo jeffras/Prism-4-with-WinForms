@@ -1,0 +1,17 @@
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.Tests.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.Tests.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Moq.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\bin\Debug\Moq.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\obj\Debug\Microsoft.Practices.Prism.UnityExtensions.Tests.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.UnityExtensions.Tests\obj\Debug\Microsoft.Practices.Prism.UnityExtensions.Tests.pdb

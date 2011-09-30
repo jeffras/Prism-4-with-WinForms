@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{948D0452-B1DF-473B-A616-EC7259F1C0FC}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.Practices.Prism.Tests</RootNamespace>
+    <AssemblyName>Microsoft.Practices.Prism.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Microsoft.Practices.Prism.Tests.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>Composite.Tests.App</SilverlightAppEntry>
+    <TestPageFileName>TestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>false</ThrowErrorsInValidation><FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <NoWarn>0067, 0649, 0219, 0612</NoWarn>
+    <CodeAnalysisRuleSet>..\..\Prism.TestProjects.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0067, 0649, 0219, 0612</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <CodeAnalysisRuleSet>..\..\Prism.TestProjects.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LIB\Silverlight\CommonServiceLocation\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Silverlight.Testing, Version=2.0.20930.1042, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LIB\Silverlight\UnitTestFramework\Microsoft.Silverlight.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight, Version=2.0.20930.1042, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\LIB\Silverlight\UnitTestFramework\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq.Silverlight">
+      <HintPath>..\..\..\LIB\Silverlight\Moq\Moq.Silverlight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Xml.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Desktop\Prism.Tests\BootstrapperFixture.cs">
+      <Link>BootstrapperFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\CollectionExtensionsFixture.cs">
+      <Link>CollectionExtensionsFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Commands\ClickCommandBehaviorFixture.cs">
+      <Link>Commands\ClickCommandBehaviorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Commands\ClickFixture.cs">
+      <Link>Commands\ClickFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Commands\CompositeCommandFixture.cs">
+      <Link>Commands\CompositeCommandFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Commands\DelegateCommandFixture.cs">
+      <Link>Commands\DelegateCommandFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\BackgroundEventSubscriptionFixture.cs">
+      <Link>Events\BackgroundEventSubscriptionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\CompositePresentationEventFixture.cs">
+      <Link>Events\CompositePresentationEventFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\DataEventArgsFixture.cs">
+      <Link>Events\DataEventArgsFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\DelegateReferenceFixture.cs">
+      <Link>Events\DelegateReferenceFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\DispatcherEventSubscriptionFixture.cs">
+      <Link>Events\DispatcherEventSubscriptionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\EventAggregatorFixture.cs">
+      <Link>Events\EventAggregatorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\EventBaseFixture.cs">
+      <Link>Events\EventBaseFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\EventSubscriptionFixture.cs">
+      <Link>Events\EventSubscriptionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\SubscriptionTokenFixture.cs">
+      <Link>Events\SubscriptionTokenFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\ExceptionExtensionsFixture.cs">
+      <Link>ExceptionExtensionsFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\ListDictionaryFixture.cs">
+      <Link>ListDictionaryFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Logging\EmptyLoggerFixture.cs">
+      <Link>Logging\EmptyLoggerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Logging\TextLoggerFixture.cs">
+      <Link>Logging\TextLoggerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockAsyncModuleTypeLoader.cs">
+      <Link>Mocks\MockAsyncModuleTypeLoader.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockClickableObject.cs">
+      <Link>Mocks\MockClickableObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockCommand.cs">
+      <Link>Mocks\MockCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockContainerAdapter.cs">
+      <Link>Mocks\MockContainerAdapter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockDelegateReference.cs">
+      <Link>Mocks\MockDelegateReference.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockDependencyObject.cs">
+      <Link>Mocks\MockDependencyObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockHostAwareRegionBehavior.cs">
+      <Link>Mocks\MockHostAwareRegionBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockLogger.cs">
+      <Link>Mocks\MockLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockModuleTypeLoader.cs">
+      <Link>Mocks\MockModuleTypeLoader.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockPresentationRegion.cs">
+      <Link>Mocks\MockPresentationRegion.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockRegion.cs">
+      <Link>Mocks\MockRegion.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockRegionAdapter.cs">
+      <Link>Mocks\MockRegionAdapter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockRegionBehavior.cs">
+      <Link>Mocks\MockRegionBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockRegionBehaviorCollection.cs">
+      <Link>Mocks\MockRegionBehaviorCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockRegionManager.cs">
+      <Link>Mocks\MockRegionManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockRegionManagerAccessor.cs">
+      <Link>Mocks\MockRegionManagerAccessor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockServiceLocator.cs">
+      <Link>Mocks\MockServiceLocator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockSortableViews.cs">
+      <Link>Mocks\MockSortableViews.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockViewsCollection.cs">
+      <Link>Mocks\MockViewsCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Modularity\ModuleCatalogFixture.cs">
+      <Link>Modularity\ModuleCatalogFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Modularity\ModuleDependencySolverFixture.cs">
+      <Link>Modularity\ModuleDependencySolverFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Modularity\ModuleInfoGroupExtensionsFixture.cs">
+      <Link>Modularity\ModuleInfoGroupExtensionsFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Modularity\ModuleInfoGroupFixture.cs">
+      <Link>Modularity\ModuleInfoGroupFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Modularity\ModuleInitializerFixture.cs">
+      <Link>Modularity\ModuleInitializerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Modularity\ModuleManagerFixture.cs">
+      <Link>Modularity\ModuleManagerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\AllActiveRegionFixture.cs">
+      <Link>Regions\AllActiveRegionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\Behaviors\AutoPopulateRegionBehaviorFixture.cs">
+      <Link>Regions\Behaviors\AutoPopulateRegionBehaviorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\Behaviors\BindRegionContextToDependencyObjectBehaviorFixture.cs">
+      <Link>Regions\Behaviors\BindRegionContextToDependencyObjectBehaviorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\Behaviors\DelayedRegionCreationBehaviorFixture.cs">
+      <Link>Regions\Behaviors\DelayedRegionCreationBehaviorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\Behaviors\RegionActiveAwareBehaviorFixture.cs">
+      <Link>Regions\Behaviors\RegionActiveAwareBehaviorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\Behaviors\RegionManagerRegistrationBehaviorFixture.cs">
+      <Link>Regions\Behaviors\RegionManagerRegistrationBehaviorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\Behaviors\RegionMemberLifetimeBehaviorFixture.cs">
+      <Link>Regions\Behaviors\RegionMemberLifetimeBehaviorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\Behaviors\SelectorItemsSourceSyncRegionBehaviorFixture.cs">
+      <Link>Regions\Behaviors\SelectorItemsSourceSyncRegionBehaviorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\Behaviors\SyncRegionContextWithHostBehaviorFixture.cs">
+      <Link>Regions\Behaviors\SyncRegionContextWithHostBehaviorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\ContentControlRegionAdapterFixture.cs">
+      <Link>Regions\ContentControlRegionAdapterFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\ItemsControlRegionAdapterFixture.cs">
+      <Link>Regions\ItemsControlRegionAdapterFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\LocatorNavigationTargetHandlerFixture.cs">
+      <Link>Regions\LocatorNavigationTargetHandlerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\NavigationAsyncExtensionsFixture.cs">
+      <Link>Regions\NavigationAsyncExtensionsFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\NavigationContextFixture.cs">
+      <Link>Regions\NavigationContextFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\RegionAdapterBaseFixture.cs">
+      <Link>Regions\RegionAdapterBaseFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\RegionAdapterMappingsFixture.cs">
+      <Link>Regions\RegionAdapterMappingsFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\RegionBehaviorCollectionFixture.cs">
+      <Link>Regions\RegionBehaviorCollectionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\RegionBehaviorFactoryFixture.cs">
+      <Link>Regions\RegionBehaviorFactoryFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\RegionBehaviorFixture.cs">
+      <Link>Regions\RegionBehaviorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\RegionFixture.cs">
+      <Link>Regions\RegionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\RegionManagerExtensionsFixture.cs">
+      <Link>Regions\RegionManagerExtensionsFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\RegionManagerFixture.cs">
+      <Link>Regions\RegionManagerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\RegionNavigationServiceFixture.new.cs">
+      <Link>Regions\RegionNavigationServiceFixture.new.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\RegionViewRegistryFixture.cs">
+      <Link>Regions\RegionViewRegistryFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\SelectorRegionAdapterFixture.cs">
+      <Link>Regions\SelectorRegionAdapterFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\SingleActiveRegionFixture.cs">
+      <Link>Regions\SingleActiveRegionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Regions\ViewsCollectionFixture.cs">
+      <Link>Regions\ViewsCollectionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\ServiceLocatorExtensionsFixture.cs">
+      <Link>ServiceLocatorExtensionsFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\UriQueryFixture.cs">
+      <Link>UriQueryFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\ViewModel\ErrorsContainerFixture.cs">
+      <Link>ViewModel\ErrorsContainerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\ViewModel\NotificationObjectFixture.cs">
+      <Link>ViewModel\NotificationObjectFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\ViewModel\PropertySupportFixture.cs">
+      <Link>ViewModel\PropertySupportFixture.cs</Link>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Regions\TabControlRegionAdapterFixture.cs" />
+    <Compile Include="ViewModel\DataTemplateSelectorFixture.cs" />
+    <None Include="Mocks\Modules\RemoteModuleA.cs" />
+    <None Include="Mocks\Modules\RemoteModuleB.cs" />
+    <Compile Include="Events\DefaultDispatcherFixture.cs" />
+    <Compile Include="Modularity\XapModuleTypeLoaderFixture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mocks\Modules\createXap.bat" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Mocks\Modules\addToZip.vbs" />
+    <Resource Include="Mocks\Modules\AppManifest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mocks\Modules\RemoteModules.xap">
+      <Link>Mocks\Modules\RemoteModules.xap</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Modularity\ModuleCatalogXaml\SimpleModuleCatalog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Bin\Debug\de\" />
+    <Folder Include="Bin\Debug\es\" />
+    <Folder Include="Bin\Debug\fr\" />
+    <Folder Include="Bin\Debug\it\" />
+    <Folder Include="Bin\Debug\ja\" />
+    <Folder Include="Bin\Debug\ko\" />
+    <Folder Include="Bin\Debug\zh-Hans\" />
+    <Folder Include="Bin\Debug\zh-Hant\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Prism.TestSupport\Prism.Silverlight.TestSupport.csproj">
+      <Project>{6B49E97E-944C-40C9-B0C7-369C2B195D98}</Project>
+      <Name>Prism.Silverlight.TestSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism\Prism.Silverlight.csproj">
+      <Project>{CC79289A-2563-40B8-895C-3CDA56BA4956}</Project>
+      <Name>Prism.Silverlight</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\Desktop\Prism.Tests\Modularity\NotAValidDotNetDll.txt.dll">
+      <Link>Modularity\NotAValidDotNetDll.txt.dll</Link>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+      <UserProperties ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" ProjectLinkReference="7db8e74d-214f-4840-b294-58372d369958" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)Mocks\Modules\CreateXap.bat" $(ConfigurationName)</PreBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,8 @@
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.TestSupport\bin\Debug\Microsoft.Practices.Prism.TestSupport.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.TestSupport\bin\Debug\Microsoft.Practices.Prism.TestSupport.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.TestSupport\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.TestSupport\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.TestSupport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.TestSupport\obj\Debug\Microsoft.Practices.Prism.TestSupport.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.TestSupport\obj\Debug\Microsoft.Practices.Prism.TestSupport.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.TestSupport\bin\Debug\Microsoft.Practices.ServiceLocation.dll

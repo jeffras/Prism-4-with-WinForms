@@ -1,0 +1,4 @@
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Silverlight\Prism.MefExtensions\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Silverlight\Prism.MefExtensions\obj\Debug\Microsoft.Practices.Prism.MefExtensions.Properties.Resources.resources
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Silverlight\Prism.MefExtensions\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Silverlight\Prism.MefExtensions\obj\Debug\GenerateResource.write.1.tlog

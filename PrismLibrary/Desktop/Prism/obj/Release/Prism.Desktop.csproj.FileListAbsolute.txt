@@ -1,0 +1,12 @@
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\bin\Release\Microsoft.Practices.Prism.XML
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\bin\Release\Microsoft.Practices.Prism.dll
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\bin\Release\Microsoft.Practices.Prism.pdb
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\bin\Release\Microsoft.Practices.Prism.dll.CodeAnalysisLog.xml
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\bin\Release\Microsoft.Practices.Prism.dll.lastcodeanalysissucceeded
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Release\ResolveAssemblyReference.cache
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Release\Microsoft.Practices.Prism.Properties.Resources.resources
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Release\GenerateResource.read.1.tlog
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Release\GenerateResource.write.1.tlog
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Release\Microsoft.Practices.Prism.dll
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Release\Microsoft.Practices.Prism.pdb

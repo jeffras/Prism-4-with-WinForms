@@ -1,0 +1,17 @@
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\FirstPrismModule.dll
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\FirstPrismModule.pdb
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\Common.dll
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\Microsoft.Practices.Prism.dll
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\Microsoft.Practices.Unity.dll
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\Microsoft.Practices.Prism.pdb
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\Microsoft.Practices.Prism.xml
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\Common.pdb
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\Microsoft.Practices.Unity.pdb
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\bin\Release\Microsoft.Practices.Unity.xml
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\obj\Release\ResolveAssemblyReference.cache
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\obj\Release\FirstPrismModule.ModuleView.resources
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\obj\Release\GenerateResource.read.1.tlog
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\obj\Release\GenerateResource.write.1.tlog
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\obj\Release\FirstPrismModule.dll
+C:\dev\Prism-4-with-WinForms\WinFormsDemo\FirstPrismModule\obj\Release\FirstPrismModule.pdb

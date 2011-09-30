@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0BBCBA00-257D-4E79-B537-FD227188BDF8}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.Practices.Prism.Tests</RootNamespace>
+    <AssemblyName>Microsoft.Practices.Prism.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Microsoft.Practices.Prism.Tests.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>Microsoft.Practices.Prism.Tests.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation></PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="Microsoft.Silverlight.Testing">
+      <HintPath>..\..\..\LIB\Phone\UnitTestFramework\Microsoft.Silverlight.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight">
+      <HintPath>..\..\..\LIB\Phone\UnitTestFramework\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Desktop\Prism.Tests\Commands\CompositeCommandFixture.cs">
+      <Link>Commands\CompositeCommandFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Commands\DelegateCommandFixture.cs">
+      <Link>Commands\DelegateCommandFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\BackgroundEventSubscriptionFixture.cs">
+      <Link>Events\BackgroundEventSubscriptionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\CompositePresentationEventFixture.cs">
+      <Link>Events\CompositePresentationEventFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\DataEventArgsFixture.cs">
+      <Link>Events\DataEventArgsFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\DelegateReferenceFixture.cs">
+      <Link>Events\DelegateReferenceFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\DispatcherEventSubscriptionFixture.cs">
+      <Link>Events\DispatcherEventSubscriptionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\EventAggregatorFixture.cs">
+      <Link>Events\EventAggregatorFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\EventBaseFixture.cs">
+      <Link>Events\EventBaseFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\EventSubscriptionFixture.cs">
+      <Link>Events\EventSubscriptionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Events\SubscriptionTokenFixture.cs">
+      <Link>Events\SubscriptionTokenFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\Mocks\MockDelegateReference.cs">
+      <Link>Mocks\MockDelegateReference.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\ViewModel\ErrorsContainerFixture.cs">
+      <Link>ViewModel\ErrorsContainerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\ViewModel\NotificationObjectFixture.cs">
+      <Link>ViewModel\NotificationObjectFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.Tests\ViewModel\PropertySupportFixture.cs">
+      <Link>ViewModel\PropertySupportFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Silverlight\Prism.Tests\Events\DefaultDispatcherFixture.cs">
+      <Link>Events\DefaultDispatcherFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Silverlight\Prism.Tests\ViewModel\DataTemplateSelectorFixture.cs">
+      <Link>ViewModel\DataTemplateSelectorFixture.cs</Link>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Prism.TestSupport\Prism.TestSupport.csproj">
+      <Project>{39F16E78-A9D9-4A83-BBEE-C7F311522E2E}</Project>
+      <Name>Prism.TestSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism\Prism.csproj">
+      <Project>{3BC829AC-1DE8-48A7-BE0C-D96CFE6CF0EA}</Project>
+      <Name>Prism</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

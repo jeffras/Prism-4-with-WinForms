@@ -1,0 +1,13 @@
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.MefExtensions.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.MefExtensions.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\Microsoft.Practices.Prism.MefExtensions.Properties.Resources.resources
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\Microsoft.Practices.Prism.MefExtensions.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.MefExtensions\obj\Debug\Microsoft.Practices.Prism.MefExtensions.pdb

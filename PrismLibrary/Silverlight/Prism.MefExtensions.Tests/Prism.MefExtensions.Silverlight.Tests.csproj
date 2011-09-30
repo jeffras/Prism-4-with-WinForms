@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A06FF57C-016C-40AB-8CA0-FC2EF676918B}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.Practices.Prism.MefExtensions.Tests</RootNamespace>
+    <AssemblyName>Microsoft.Practices.Prism.MefExtensions.Tests</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures />
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Prism.MefExtensions.Silverlight.Tests.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>Composite.MefExtensions.Silverlight.Tests.App</SilverlightAppEntry>
+    <TestPageFileName>TestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <EnableOutOfBrowser>false</EnableOutOfBrowser>
+    <OutOfBrowserSettingsFile>Properties\OutOfBrowserSettings.xml</OutOfBrowserSettingsFile>
+    <UsePlatformExtensions>false</UsePlatformExtensions>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <LinkedServerProject /></PropertyGroup>
+  <!--
+  //
+  // Silverlight Code Coverage Instrumentation
+  // List any libraries or assemblies that you would like to instrument during
+  // a code coverage pass. An example, for ClassLibrary1, is provided, and
+  // commented out below as a starting point:
+  //
+  -->
+  <!--
+  <ItemGroup>
+    <InstrumentSilverlightAssemblies Include="SilverlightClassLibrary1">
+      <Visible>false</Visible>
+    </InstrumentSilverlightAssemblies>
+  </ItemGroup>
+  -->
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\..\Prism.TestProjects.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\..\Prism.TestProjects.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\..\LIB\Silverlight\CommonServiceLocation\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Silverlight.Testing">
+      <HintPath>..\..\..\LIB\Silverlight\UnitTestFramework\Microsoft.Silverlight.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight">
+      <HintPath>..\..\..\LIB\Silverlight\UnitTestFramework\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq.Silverlight">
+      <HintPath>..\..\..\LIB\Silverlight\Moq\Moq.Silverlight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\BootstrapperFixtureBase.cs">
+      <Link>BootstrapperFixtureBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\DefaultPrismServiceRegistrarFixture.cs">
+      <Link>DefaultPrismServiceRegistrarFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\DownloadedPartCatalogCollectionFixture.cs">
+      <Link>DownloadedPartCatalogCollectionFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\MefBootstrapperFixture.cs">
+      <Link>MefBootstrapperFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\MefBootstrapperNullLoggerFixture.cs">
+      <Link>MefBootstrapperNullLoggerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\MefBootstrapperNullModuleCatalogFixture.cs">
+      <Link>MefBootstrapperNullModuleCatalogFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\MefBootstrapperRunMethodFixture.cs">
+      <Link>MefBootstrapperRunMethodFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\MefModuleInitializerFixture.cs">
+      <Link>MefModuleInitializerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\MefModuleManagerFixture.cs">
+      <Link>MefModuleManagerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\MefNullContainerBootstrapperFixture.cs">
+      <Link>MefNullContainerBootstrapperFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\MefNullModuleManagerFixture.cs">
+      <Link>MefNullModuleManagerFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Desktop\Prism.MefExtensions.Tests\MefServiceLocatorAdapterFixture.cs">
+      <Link>MefServiceLocatorAdapterFixture.cs</Link>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MefModuleManagerFixture.Silverlight.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Prism.MefExtensions\Prism.MefExtensions.Silverlight.csproj">
+      <Project>{064AB5E3-6931-4505-A766-5D80963D6F1C}</Project>
+      <Name>Prism.MefExtensions.Silverlight</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism\Prism.Silverlight.csproj">
+      <Project>{CC79289A-2563-40B8-895C-3CDA56BA4956}</Project>
+      <Name>Prism.Silverlight</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- 
+  <Import Condition="$(SilverlightVersion)=='v3.0'" Project="$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SilverlightToolkit\Tools\v3.0)Microsoft.Silverlight.Toolkit.Build.targets" /> 
+  <Import Condition="$(SilverlightVersion)=='v4.0'" Project="$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SilverlightToolkit\Tools\v4.0)Microsoft.Silverlight.Toolkit.Build.targets" />
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+      <UserProperties ProjectLinkReference="b9bd4b23-8163-4ef3-955f-02b9578c45ba" ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity.Tests\bin\Debug\Microsoft.Practices.Prism.Interactivity.Tests.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity.Tests\bin\Debug\Microsoft.Practices.Prism.Interactivity.Tests.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity.Tests\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity.Tests\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity.Tests\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity.Tests\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity.Tests\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity.Tests\obj\Debug\Microsoft.Practices.Prism.Interactivity.Tests.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Desktop\Prism.Interactivity.Tests\obj\Debug\Microsoft.Practices.Prism.Interactivity.Tests.pdb

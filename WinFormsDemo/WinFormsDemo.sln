@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsDemo", "WinFormsDemo\WinFormsDemo.csproj", "{E2981860-03DA-4E35-A869-EDE07BB5EE95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstPrismModule", "FirstPrismModule\FirstPrismModule.csproj", "{B5640489-3EB8-437D-9E0E-E9F8174C17F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{D68117F5-F558-45F6-9D7A-417A3D7731E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.Desktop", "..\PrismLibrary\Desktop\Prism\Prism.Desktop.csproj", "{77138947-1D13-4E22-AEE0-5D0DD046CA34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.UnityExtensions.Desktop", "..\PrismLibrary\Desktop\Prism.UnityExtensions\Prism.UnityExtensions.Desktop.csproj", "{17831F3B-6B82-4916-BD2B-2CE2071EA622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeExtensions.Unity", "WinFormsUnityBootStrapper\WinFormsUnityBootStrapper.csproj", "{2BA648CD-F74E-45EE-87CD-B30F4F431D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondPrismModule", "SecondModule\SecondPrismModule.csproj", "{373F0DE0-7E64-4443-8B7E-D9D59D1C785D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F291991D-322E-4A18-835C-A6452A0FDFA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2981860-03DA-4E35-A869-EDE07BB5EE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2981860-03DA-4E35-A869-EDE07BB5EE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2981860-03DA-4E35-A869-EDE07BB5EE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2981860-03DA-4E35-A869-EDE07BB5EE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5640489-3EB8-437D-9E0E-E9F8174C17F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5640489-3EB8-437D-9E0E-E9F8174C17F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5640489-3EB8-437D-9E0E-E9F8174C17F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5640489-3EB8-437D-9E0E-E9F8174C17F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA648CD-F74E-45EE-87CD-B30F4F431D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA648CD-F74E-45EE-87CD-B30F4F431D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA648CD-F74E-45EE-87CD-B30F4F431D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA648CD-F74E-45EE-87CD-B30F4F431D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373F0DE0-7E64-4443-8B7E-D9D59D1C785D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373F0DE0-7E64-4443-8B7E-D9D59D1C785D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373F0DE0-7E64-4443-8B7E-D9D59D1C785D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373F0DE0-7E64-4443-8B7E-D9D59D1C785D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F291991D-322E-4A18-835C-A6452A0FDFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F291991D-322E-4A18-835C-A6452A0FDFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F291991D-322E-4A18-835C-A6452A0FDFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F291991D-322E-4A18-835C-A6452A0FDFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77138947-1D13-4E22-AEE0-5D0DD046CA34} = {D68117F5-F558-45F6-9D7A-417A3D7731E7}
+		{17831F3B-6B82-4916-BD2B-2CE2071EA622} = {D68117F5-F558-45F6-9D7A-417A3D7731E7}
+	EndGlobalSection
+EndGlobal

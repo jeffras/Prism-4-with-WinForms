@@ -1,0 +1,10 @@
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\bin\Debug\Microsoft.Practices.Prism.XML
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\bin\Debug\Microsoft.Practices.Prism.dll
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Debug\Microsoft.Practices.Prism.Properties.Resources.resources
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Debug\GenerateResource.read.1.tlog
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Debug\GenerateResource.write.1.tlog
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Debug\Microsoft.Practices.Prism.dll
+C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism\obj\Debug\Microsoft.Practices.Prism.pdb

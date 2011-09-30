@@ -1,0 +1,3 @@
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Silverlight\Prism.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Silverlight\Prism.Tests\obj\Debug\App.g.i.cs
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\PrismLibrary\Silverlight\Prism.Tests\obj\Debug\Microsoft.Practices.Prism.Tests.g.resources

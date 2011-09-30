@@ -1,0 +1,16 @@
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\bin\Debug\SecondModule.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\bin\Debug\SecondModule.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\obj\Debug\SecondModule.AnotherView.resources
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\obj\Debug\SecondModule.dll
+C:\Users\Jras\Documents\Visual Studio 2010\Prism4\CompositeExtensionsForWindowsForms\CompositeExtensionsForWindowsForms\SecondModule\obj\Debug\SecondModule.pdb
