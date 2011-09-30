@@ -40,6 +40,7 @@
             // 
             // m_MainRegionPanel
             // 
+            this.m_MainRegionPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.m_MainRegionPanel.Location = new System.Drawing.Point(12, 30);
             this.m_MainRegionPanel.Name = "m_MainRegionPanel";
             this.m_MainRegionPanel.Size = new System.Drawing.Size(517, 120);
@@ -69,6 +70,7 @@
             // 
             // m_SecondRegionPanel
             // 
+            this.m_SecondRegionPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.m_SecondRegionPanel.Location = new System.Drawing.Point(12, 177);
             this.m_SecondRegionPanel.Name = "m_SecondRegionPanel";
             this.m_SecondRegionPanel.Size = new System.Drawing.Size(517, 121);

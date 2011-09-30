@@ -13,18 +13,16 @@ namespace SecondPrismModule
 {
     public class SecondModule : IModule
     {
-        IUnityContainer m_Container;
-        private IEventAggregator _eventAggregator;
-        public SecondModule(IUnityContainer container, IEventAggregator evtAggregator)
+        IUnityContainer _container;
+        public SecondModule(IUnityContainer container)
         {
-            m_Container = container;
-            _eventAggregator = evtAggregator;
+            _container = container;
         }
 
         public void Initialize()
         {
-            Panel secondRegion = m_Container.Resolve<Panel>("SecondRegion");
-            AnotherView view = m_Container.Resolve<AnotherView>();
+            Panel secondRegion = _container.Resolve<Panel>("SecondRegion");
+            AnotherView view = _container.Resolve<AnotherView>();
             view.Dock = DockStyle.Fill;
             secondRegion.Controls.Add(view);
         }

@@ -6,17 +6,17 @@ namespace FirstPrismModule
 {
 public class CompositeWFModule : IModule
 {
-    IUnityContainer m_Container;
+    IUnityContainer _container;
     public CompositeWFModule(IUnityContainer container)
     {
-        m_Container = container;
+        _container = container;
     }
     #region IModule Members
 
     public void Initialize()
     {
-        Panel mainRegion = m_Container.Resolve<Panel>("MainRegion");
-        ModuleView view = m_Container.Resolve<ModuleView>();
+        Panel mainRegion = _container.Resolve<Panel>("MainRegion");
+        ModuleView view = _container.Resolve<ModuleView>();
         view.Dock = DockStyle.Fill;
         mainRegion.Controls.Add(view);
     }

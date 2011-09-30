@@ -1,2 +1,6 @@
 
 *.suo
+*.user
+*.dll
+*.pdb
+*.tlog

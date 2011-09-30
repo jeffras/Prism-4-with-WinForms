@@ -1,4 +1,3 @@
-C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Release\Microsoft.Practices.Prism.UnityExtensions.xml
 C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Release\Microsoft.Practices.Prism.UnityExtensions.dll
 C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Release\Microsoft.Practices.Prism.UnityExtensions.pdb
 C:\dev\Prism-4-with-WinForms\PrismLibrary\Desktop\Prism.UnityExtensions\bin\Release\Microsoft.Practices.Prism.UnityExtensions.dll.CodeAnalysisLog.xml

@@ -30,67 +30,66 @@
         {
             this.components = new System.ComponentModel.Container();
             this.SaveSelection = new System.Windows.Forms.Button();
-            this.ProductsList = new System.Windows.Forms.ComboBox();
+            this.ProductsCB = new System.Windows.Forms.ComboBox();
             this.ProductsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ProductsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // SaveSelection
             // 
-            this.SaveSelection.Location = new System.Drawing.Point(72, 58);
+            this.SaveSelection.Location = new System.Drawing.Point(138, 58);
             this.SaveSelection.Name = "SaveSelection";
-            this.SaveSelection.Size = new System.Drawing.Size(167, 23);
+            this.SaveSelection.Size = new System.Drawing.Size(101, 23);
             this.SaveSelection.TabIndex = 0;
             this.SaveSelection.Text = "Save Selection";
             this.SaveSelection.UseVisualStyleBackColor = true;
             this.SaveSelection.Click += new System.EventHandler(this.OnSaveSelection);
             // 
-            // ProductsList
+            // ProductsCB
             // 
-            this.ProductsList.DataSource = this.ProductsBindingSource;
-            this.ProductsList.DisplayMember = "Name";
-            this.ProductsList.FormattingEnabled = true;
-            this.ProductsList.Location = new System.Drawing.Point(19, 20);
-            this.ProductsList.Name = "ProductsList";
-            this.ProductsList.Size = new System.Drawing.Size(220, 21);
-            this.ProductsList.TabIndex = 2;
+            this.ProductsCB.DataSource = this.ProductsBindingSource;
+            this.ProductsCB.DisplayMember = "Name";
+            this.ProductsCB.FormattingEnabled = true;
+            this.ProductsCB.Location = new System.Drawing.Point(19, 20);
+            this.ProductsCB.Name = "ProductsCB";
+            this.ProductsCB.Size = new System.Drawing.Size(220, 21);
+            this.ProductsCB.TabIndex = 2;
             // 
             // ProductsBindingSource
             // 
             this.ProductsBindingSource.DataMember = "Products";
-            this.ProductsBindingSource.DataSource = typeof(ModuleView_ViewModel);
+            this.ProductsBindingSource.DataSource = typeof(FirstPrismModule.ModuleView_ViewModel);
             // 
-            // label1
+            // button1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 66);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.button1.Location = new System.Drawing.Point(19, 58);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(101, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Save All";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ModuleView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.ProductsList);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ProductsCB);
             this.Controls.Add(this.SaveSelection);
             this.Name = "ModuleView";
             this.Size = new System.Drawing.Size(256, 104);
             ((System.ComponentModel.ISupportInitialize)(this.ProductsBindingSource)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button SaveSelection;
-        private System.Windows.Forms.ComboBox ProductsList;
+        private System.Windows.Forms.ComboBox ProductsCB;
         private System.Windows.Forms.BindingSource ProductsBindingSource;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
